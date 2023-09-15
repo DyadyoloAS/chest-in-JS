@@ -104,11 +104,11 @@ fd();
     
 };
 k[i].addEventListener("click", fd);
-function fd(element) { 
- 
+function fd(event){
+    event='Hello nothing personal';
+    console.log(event);
+console.log("working");
 
-
-};
-
+}
 
 };
